@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  EC2_HOST: ${{ secrets.EC2_HOST || vars.EC2_HOST || '32.199.185.137' }}
+  EC2_HOST: ${{ secrets.EC2_HOST || vars.EC2_HOST || '54.205.178.121' }}
   EC2_USER: ${{ secrets.EC2_USER || vars.EC2_USER || 'ubuntu' }}
   DEPLOY_PATH: ${{ vars.EC2_DEPLOY_PATH || '/var/www/html/hdcevents' }}
   APP_NAME: ${{ vars.APP_NAME || 'HDC_Events' }}

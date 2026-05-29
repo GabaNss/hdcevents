@@ -6,6 +6,7 @@
 
 <section id="search-container">
     <h1>Busque um evento</h1>
+    <h1>...</h1>
     <form action="{{ url('/') }}" method="GET">
         <input type="text" name="search" id="search" placeholder="Procurar..." value="{{ $search ?? '' }}">
     </form>
